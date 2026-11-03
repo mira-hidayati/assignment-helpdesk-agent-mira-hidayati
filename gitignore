@@ -1,0 +1,35 @@
+# Virtualenv & cache Python
+.venv
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment Variables & Secrets - JANGAN pernah masuk image
+.env
+.env.*
+!.env.example
+
+# VCS & editor
+.git/
+.gitignore
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# FAISS / Model local cache
+*.index
